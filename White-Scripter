@@ -1,0 +1,31 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("MCLAREN", "DarkTheme")
+local Tab = Window:NewTab("SCRIPT")
+local Section = Tab:NewSection("CLICK👇")
+Section:NewButton("INSTANT ITEM", "ButtonInfo", function()
+
+local args = {
+    [1] = "OpenVisor"
+}
+
+game:GetService("ReplicatedStorage").UGCTimedUnlock_ClaimItem:InvokeServer(unpack(args))
+
+    print("Clicked")
+end)
+
+local args = {
+    [1] = "ClosedVisor"
+}
+
+game:GetService("ReplicatedStorage").UGCTimedUnlock_ClaimItem:InvokeServer(unpack(args))
+
+local Tab = Window:NewTab("Credits 🤓")
+local Section = Tab:NewSection("👇👇👇👇")
+Section:NewButton("White-Scripter", "ButtonInfo", function()
+
+    print("Clicked")
+end)
+Section:NewButton("Subscribe", "ButtonInfo", function()
+
+    print("Clicked")
+end)
